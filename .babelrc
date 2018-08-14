@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "loose": true
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
+  "env": {
+    "test": {
+      "presets": [["env"], "stage-2", "react"]
+    }
+  },
+  "plugins": [
+    "syntax-dynamic-import",
+    "babel-plugin-styled-components",
+    "babel-plugin-polished"
+  ],
+  "ignore": ["node_modules"]
+}

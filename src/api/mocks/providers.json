@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "MTS"
+    },
+    {
+      "id": 2,
+      "name": "Beeline"
+    },
+    {
+      "id": 3,
+      "name": "Tele2"
+    },
+    {
+      "id": 4,
+      "name": "Megafon"
+    }
+  ]
+}

@@ -30,7 +30,6 @@ class RefilBalanceForm extends React.Component {
       handleChange,
       handleBlur,
       isSubmitting,
-      errors,
       status = {}
     } = this.props;
     return (

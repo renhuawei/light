@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage render correctly 1`] = `
+<styled.div>
+  Loading...
+</styled.div>
+`;
+
+exports[`MainPage render correctly 2`] = `
+<MainPage
+  data={
+    Array [
+      Object {
+        "id": 1,
+        "name": "MTS",
+      },
+      Object {
+        "id": 2,
+        "name": "Beeline",
+      },
+      Object {
+        "id": 3,
+        "name": "Tele2",
+      },
+      Object {
+        "id": 4,
+        "name": "Megafon",
+      },
+    ]
+  }
+/>
+`;

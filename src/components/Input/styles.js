@@ -15,10 +15,11 @@ export const StyledInput = styled.input`
   box-sizing: border-box;
   color: #555;
   font-size: 16px;
+  ${props => props.error && `border-color: red;`}
 }
 `;
 
 export const StyledLabel = styled.label`
   display: block;
-  color: ${props => (props.error ? 'red' : 'inherit')};
+  ${props => props.error && `color: red;`};
 `;

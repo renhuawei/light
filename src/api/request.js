@@ -1,3 +1,5 @@
+import 'whatwg-fetch';
+
 async function request(url, config = {}) {
   const headers = new Headers();
   headers.append('Accept', 'application/json');

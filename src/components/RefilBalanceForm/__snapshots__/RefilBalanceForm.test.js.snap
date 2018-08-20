@@ -1,0 +1,2171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formik correctly validate form submission 1`] = `
+<WithFormik(RefilBalanceForm)
+  provider={
+    Object {
+      "id": 1,
+      "name": "MTS",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "amount": "",
+        "phone": "",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    provider={
+      Object {
+        "id": 1,
+        "name": "MTS",
+      }
+    }
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <RefilBalanceForm
+      dirty={false}
+      errors={Object {}}
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+      isSubmitting={false}
+      isValid={false}
+      isValidating={false}
+      provider={
+        Object {
+          "id": 1,
+          "name": "MTS",
+        }
+      }
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={0}
+      submitForm={[Function]}
+      touched={Object {}}
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+    >
+      <div>
+        <styled.h1>
+          <h1
+            className="sc-EHOje fCNSzj"
+          >
+            Refil balance 
+            MTS
+          </h1>
+        </styled.h1>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-ifAKCX hsTlvV"
+            onSubmit={[Function]}
+          >
+            <Input
+              guide={false}
+              innerRef={[Function]}
+              label="Phone number"
+              mask={
+                Array [
+                  "+",
+                  "7",
+                  " ",
+                  "(",
+                  /\\[1-9\\]/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  ")",
+                  " ",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="phone"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="+7 (978) 802-10-42"
+              type="tel"
+              value=""
+            >
+              <C
+                name="phone"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 0,
+                      "submitForm": [Function],
+                      "touched": Object {},
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="phone"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="phone"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="phone"
+                        >
+                          Phone number
+                        </label>
+                      </styled.label>
+                      <t
+                        guide={false}
+                        mask={
+                          Array [
+                            "+",
+                            "7",
+                            " ",
+                            "(",
+                            /\\[1-9\\]/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            ")",
+                            " ",
+                            /\\\\d/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                          ]
+                        }
+                        name="phone"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        placeholder="+7 (978) 802-10-42"
+                        render={[Function]}
+                        type="tel"
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          innerRef={[Function]}
+                          name="phone"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="+7 (978) 802-10-42"
+                          type="tel"
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue=""
+                            name="phone"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="+7 (978) 802-10-42"
+                            type="tel"
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <Input
+              innerRef={[Function]}
+              label="Amount"
+              mask={[Function]}
+              name="amount"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            >
+              <C
+                name="amount"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 0,
+                      "submitForm": [Function],
+                      "touched": Object {},
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="amount"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="amount"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="amount"
+                        >
+                          Amount
+                        </label>
+                      </styled.label>
+                      <t
+                        mask={[Function]}
+                        name="amount"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        render={[Function]}
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          innerRef={[Function]}
+                          name="amount"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue=""
+                            name="amount"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <styled.button
+              disabled={false}
+              type="submit"
+            >
+              <button
+                className="sc-bZQynM cDdhYu"
+                disabled={false}
+                type="submit"
+              >
+                Submit
+              </button>
+            </styled.button>
+          </form>
+        </styled.form>
+      </div>
+    </RefilBalanceForm>
+  </Formik>
+</WithFormik(RefilBalanceForm)>
+`;
+
+exports[`Formik correctly validate form submission 2`] = `
+<WithFormik(RefilBalanceForm)
+  provider={
+    Object {
+      "id": 1,
+      "name": "MTS",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "amount": "",
+        "phone": "",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    provider={
+      Object {
+        "id": 1,
+        "name": "MTS",
+      }
+    }
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <RefilBalanceForm
+      dirty={false}
+      errors={Object {}}
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+      isSubmitting={true}
+      isValid={false}
+      isValidating={true}
+      provider={
+        Object {
+          "id": 1,
+          "name": "MTS",
+        }
+      }
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={1}
+      submitForm={[Function]}
+      touched={
+        Object {
+          "amount": true,
+          "phone": true,
+        }
+      }
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+    >
+      <div>
+        <styled.h1>
+          <h1
+            className="sc-EHOje fCNSzj"
+          >
+            Refil balance 
+            MTS
+          </h1>
+        </styled.h1>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-ifAKCX hsTlvV"
+            onSubmit={[Function]}
+          >
+            <Input
+              guide={false}
+              innerRef={[Function]}
+              label="Phone number"
+              mask={
+                Array [
+                  "+",
+                  "7",
+                  " ",
+                  "(",
+                  /\\[1-9\\]/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  ")",
+                  " ",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="phone"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="+7 (978) 802-10-42"
+              type="tel"
+              value=""
+            >
+              <C
+                name="phone"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": true,
+                      "isValid": false,
+                      "isValidating": true,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 1,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="phone"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="phone"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="phone"
+                        >
+                          Phone number
+                        </label>
+                      </styled.label>
+                      <t
+                        guide={false}
+                        mask={
+                          Array [
+                            "+",
+                            "7",
+                            " ",
+                            "(",
+                            /\\[1-9\\]/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            ")",
+                            " ",
+                            /\\\\d/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                          ]
+                        }
+                        name="phone"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        placeholder="+7 (978) 802-10-42"
+                        render={[Function]}
+                        type="tel"
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          innerRef={[Function]}
+                          name="phone"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="+7 (978) 802-10-42"
+                          type="tel"
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue=""
+                            name="phone"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="+7 (978) 802-10-42"
+                            type="tel"
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <Input
+              innerRef={[Function]}
+              label="Amount"
+              mask={[Function]}
+              name="amount"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            >
+              <C
+                name="amount"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": true,
+                      "isValid": false,
+                      "isValidating": true,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 1,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="amount"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="amount"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="amount"
+                        >
+                          Amount
+                        </label>
+                      </styled.label>
+                      <t
+                        mask={[Function]}
+                        name="amount"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        render={[Function]}
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          innerRef={[Function]}
+                          name="amount"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue=""
+                            name="amount"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <styled.button
+              disabled={true}
+              type="submit"
+            >
+              <button
+                className="sc-bZQynM cDdhYu"
+                disabled={true}
+                type="submit"
+              >
+                Submitting
+              </button>
+            </styled.button>
+          </form>
+        </styled.form>
+      </div>
+    </RefilBalanceForm>
+  </Formik>
+</WithFormik(RefilBalanceForm)>
+`;
+
+exports[`Formik correctly validate form submission 3`] = `
+<WithFormik(RefilBalanceForm)
+  provider={
+    Object {
+      "id": 1,
+      "name": "MTS",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "amount": "",
+        "phone": "",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    provider={
+      Object {
+        "id": 1,
+        "name": "MTS",
+      }
+    }
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <RefilBalanceForm
+      dirty={false}
+      errors={
+        Object {
+          "amount": "Min: 1 ₽",
+          "phone": "Phone number is required.",
+        }
+      }
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+      isSubmitting={false}
+      isValid={false}
+      isValidating={false}
+      provider={
+        Object {
+          "id": 1,
+          "name": "MTS",
+        }
+      }
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={1}
+      submitForm={[Function]}
+      touched={
+        Object {
+          "amount": true,
+          "phone": true,
+        }
+      }
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+    >
+      <div>
+        <styled.h1>
+          <h1
+            className="sc-EHOje fCNSzj"
+          >
+            Refil balance 
+            MTS
+          </h1>
+        </styled.h1>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-ifAKCX hsTlvV"
+            onSubmit={[Function]}
+          >
+            <Input
+              guide={false}
+              innerRef={[Function]}
+              label="Phone number"
+              mask={
+                Array [
+                  "+",
+                  "7",
+                  " ",
+                  "(",
+                  /\\[1-9\\]/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  ")",
+                  " ",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="phone"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="+7 (978) 802-10-42"
+              type="tel"
+              value=""
+            >
+              <C
+                name="phone"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {
+                        "amount": "Min: 1 ₽",
+                        "phone": "Phone number is required.",
+                      },
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 1,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="phone"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        error="Phone number is required."
+                        htmlFor="phone"
+                      >
+                        <label
+                          className="sc-bxivhb eHCWl"
+                          htmlFor="phone"
+                        >
+                          Phone number
+                        </label>
+                      </styled.label>
+                      <t
+                        error="Phone number is required."
+                        guide={false}
+                        mask={
+                          Array [
+                            "+",
+                            "7",
+                            " ",
+                            "(",
+                            /\\[1-9\\]/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            ")",
+                            " ",
+                            /\\\\d/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                          ]
+                        }
+                        name="phone"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        placeholder="+7 (978) 802-10-42"
+                        render={[Function]}
+                        type="tel"
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          error="Phone number is required."
+                          innerRef={[Function]}
+                          name="phone"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="+7 (978) 802-10-42"
+                          type="tel"
+                        >
+                          <input
+                            className="sc-htpNat hsIeko"
+                            defaultValue=""
+                            name="phone"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="+7 (978) 802-10-42"
+                            type="tel"
+                          />
+                        </styled.input>
+                      </t>
+                      <styled.div
+                        size="small"
+                        type="error"
+                      >
+                        <div
+                          className="sc-bdVaJa eSGZdV"
+                          size="small"
+                          type="error"
+                        >
+                          Phone number is required.
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <Input
+              innerRef={[Function]}
+              label="Amount"
+              mask={[Function]}
+              name="amount"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            >
+              <C
+                name="amount"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {
+                        "amount": "Min: 1 ₽",
+                        "phone": "Phone number is required.",
+                      },
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 1,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                    }
+                  }
+                  name="amount"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        error="Min: 1 ₽"
+                        htmlFor="amount"
+                      >
+                        <label
+                          className="sc-bxivhb eHCWl"
+                          htmlFor="amount"
+                        >
+                          Amount
+                        </label>
+                      </styled.label>
+                      <t
+                        error="Min: 1 ₽"
+                        mask={[Function]}
+                        name="amount"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        render={[Function]}
+                        value=""
+                      >
+                        <styled.input
+                          defaultValue=""
+                          error="Min: 1 ₽"
+                          innerRef={[Function]}
+                          name="amount"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                        >
+                          <input
+                            className="sc-htpNat hsIeko"
+                            defaultValue=""
+                            name="amount"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          />
+                        </styled.input>
+                      </t>
+                      <styled.div
+                        size="small"
+                        type="error"
+                      >
+                        <div
+                          className="sc-bdVaJa eSGZdV"
+                          size="small"
+                          type="error"
+                        >
+                          Min: 1 ₽
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <styled.button
+              disabled={false}
+              type="submit"
+            >
+              <button
+                className="sc-bZQynM cDdhYu"
+                disabled={false}
+                type="submit"
+              >
+                Submit
+              </button>
+            </styled.button>
+          </form>
+        </styled.form>
+      </div>
+    </RefilBalanceForm>
+  </Formik>
+</WithFormik(RefilBalanceForm)>
+`;
+
+exports[`Formik correctly validate form submission 4`] = `
+<WithFormik(RefilBalanceForm)
+  provider={
+    Object {
+      "id": 1,
+      "name": "MTS",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "amount": "",
+        "phone": "",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    provider={
+      Object {
+        "id": 1,
+        "name": "MTS",
+      }
+    }
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <RefilBalanceForm
+      dirty={true}
+      errors={
+        Object {
+          "amount": "Max: 1000 ₽",
+          "phone": "Phone number should contain 11 digits",
+        }
+      }
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+      isSubmitting={false}
+      isValid={false}
+      isValidating={false}
+      provider={
+        Object {
+          "id": 1,
+          "name": "MTS",
+        }
+      }
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={2}
+      submitForm={[Function]}
+      touched={
+        Object {
+          "amount": true,
+          "phone": true,
+        }
+      }
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "amount": "2000",
+          "phone": "+7 (999) 99",
+        }
+      }
+    >
+      <div>
+        <styled.h1>
+          <h1
+            className="sc-EHOje fCNSzj"
+          >
+            Refil balance 
+            MTS
+          </h1>
+        </styled.h1>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-ifAKCX hsTlvV"
+            onSubmit={[Function]}
+          >
+            <Input
+              guide={false}
+              innerRef={[Function]}
+              label="Phone number"
+              mask={
+                Array [
+                  "+",
+                  "7",
+                  " ",
+                  "(",
+                  /\\[1-9\\]/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  ")",
+                  " ",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="phone"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="+7 (978) 802-10-42"
+              type="tel"
+              value="+7 (999) 99"
+            >
+              <C
+                name="phone"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": true,
+                      "errors": Object {
+                        "amount": "Max: 1000 ₽",
+                        "phone": "Phone number should contain 11 digits",
+                      },
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 2,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "2000",
+                        "phone": "+7 (999) 99",
+                      },
+                    }
+                  }
+                  name="phone"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        error="Phone number should contain 11 digits"
+                        htmlFor="phone"
+                      >
+                        <label
+                          className="sc-bxivhb eHCWl"
+                          htmlFor="phone"
+                        >
+                          Phone number
+                        </label>
+                      </styled.label>
+                      <t
+                        error="Phone number should contain 11 digits"
+                        guide={false}
+                        mask={
+                          Array [
+                            "+",
+                            "7",
+                            " ",
+                            "(",
+                            /\\[1-9\\]/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            ")",
+                            " ",
+                            /\\\\d/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                          ]
+                        }
+                        name="phone"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        placeholder="+7 (978) 802-10-42"
+                        render={[Function]}
+                        type="tel"
+                        value="+7 (999) 99"
+                      >
+                        <styled.input
+                          defaultValue="+7 (999) 99"
+                          error="Phone number should contain 11 digits"
+                          innerRef={[Function]}
+                          name="phone"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="+7 (978) 802-10-42"
+                          type="tel"
+                        >
+                          <input
+                            className="sc-htpNat hsIeko"
+                            defaultValue="+7 (999) 99"
+                            name="phone"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="+7 (978) 802-10-42"
+                            type="tel"
+                          />
+                        </styled.input>
+                      </t>
+                      <styled.div
+                        size="small"
+                        type="error"
+                      >
+                        <div
+                          className="sc-bdVaJa eSGZdV"
+                          size="small"
+                          type="error"
+                        >
+                          Phone number should contain 11 digits
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <Input
+              innerRef={[Function]}
+              label="Amount"
+              mask={[Function]}
+              name="amount"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value="2000"
+            >
+              <C
+                name="amount"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": true,
+                      "errors": Object {
+                        "amount": "Max: 1000 ₽",
+                        "phone": "Phone number should contain 11 digits",
+                      },
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 2,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "2000",
+                        "phone": "+7 (999) 99",
+                      },
+                    }
+                  }
+                  name="amount"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        error="Max: 1000 ₽"
+                        htmlFor="amount"
+                      >
+                        <label
+                          className="sc-bxivhb eHCWl"
+                          htmlFor="amount"
+                        >
+                          Amount
+                        </label>
+                      </styled.label>
+                      <t
+                        error="Max: 1000 ₽"
+                        mask={[Function]}
+                        name="amount"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        render={[Function]}
+                        value="2000"
+                      >
+                        <styled.input
+                          defaultValue="2000"
+                          error="Max: 1000 ₽"
+                          innerRef={[Function]}
+                          name="amount"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                        >
+                          <input
+                            className="sc-htpNat hsIeko"
+                            defaultValue="2000"
+                            name="amount"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          />
+                        </styled.input>
+                      </t>
+                      <styled.div
+                        size="small"
+                        type="error"
+                      >
+                        <div
+                          className="sc-bdVaJa eSGZdV"
+                          size="small"
+                          type="error"
+                        >
+                          Max: 1000 ₽
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <styled.button
+              disabled={false}
+              type="submit"
+            >
+              <button
+                className="sc-bZQynM cDdhYu"
+                disabled={false}
+                type="submit"
+              >
+                Submit
+              </button>
+            </styled.button>
+          </form>
+        </styled.form>
+      </div>
+    </RefilBalanceForm>
+  </Formik>
+</WithFormik(RefilBalanceForm)>
+`;
+
+exports[`Formik correctly validate form submission 5`] = `
+<WithFormik(RefilBalanceForm)
+  provider={
+    Object {
+      "id": 1,
+      "name": "MTS",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "amount": "",
+        "phone": "",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    provider={
+      Object {
+        "id": 1,
+        "name": "MTS",
+      }
+    }
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <RefilBalanceForm
+      dirty={true}
+      errors={Object {}}
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "amount": "",
+          "phone": "",
+        }
+      }
+      isSubmitting={true}
+      isValid={true}
+      isValidating={false}
+      provider={
+        Object {
+          "id": 1,
+          "name": "MTS",
+        }
+      }
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={3}
+      submitForm={[Function]}
+      touched={
+        Object {
+          "amount": true,
+          "phone": true,
+        }
+      }
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "amount": "999",
+          "phone": "+7 (999) 999-99-99",
+        }
+      }
+    >
+      <div>
+        <styled.h1>
+          <h1
+            className="sc-EHOje fCNSzj"
+          >
+            Refil balance 
+            MTS
+          </h1>
+        </styled.h1>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-ifAKCX hsTlvV"
+            onSubmit={[Function]}
+          >
+            <Input
+              guide={false}
+              innerRef={[Function]}
+              label="Phone number"
+              mask={
+                Array [
+                  "+",
+                  "7",
+                  " ",
+                  "(",
+                  /\\[1-9\\]/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  ")",
+                  " ",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "-",
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="phone"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="+7 (978) 802-10-42"
+              type="tel"
+              value="+7 (999) 999-99-99"
+            >
+              <C
+                name="phone"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": true,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": true,
+                      "isValid": true,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 3,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "999",
+                        "phone": "+7 (999) 999-99-99",
+                      },
+                    }
+                  }
+                  name="phone"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="phone"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="phone"
+                        >
+                          Phone number
+                        </label>
+                      </styled.label>
+                      <t
+                        guide={false}
+                        mask={
+                          Array [
+                            "+",
+                            "7",
+                            " ",
+                            "(",
+                            /\\[1-9\\]/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            ")",
+                            " ",
+                            /\\\\d/,
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                            "-",
+                            /\\\\d/,
+                            /\\\\d/,
+                          ]
+                        }
+                        name="phone"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        placeholder="+7 (978) 802-10-42"
+                        render={[Function]}
+                        type="tel"
+                        value="+7 (999) 999-99-99"
+                      >
+                        <styled.input
+                          defaultValue="+7 (999) 999-99-99"
+                          innerRef={[Function]}
+                          name="phone"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="+7 (978) 802-10-42"
+                          type="tel"
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue="+7 (999) 999-99-99"
+                            name="phone"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="+7 (978) 802-10-42"
+                            type="tel"
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <Input
+              innerRef={[Function]}
+              label="Amount"
+              mask={[Function]}
+              name="amount"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value="999"
+            >
+              <C
+                name="amount"
+                render={[Function]}
+              >
+                <FieldInner
+                  formik={
+                    Object {
+                      "dirty": true,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "amount": "",
+                        "phone": "",
+                      },
+                      "isSubmitting": true,
+                      "isValid": true,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "submitCount": 3,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "amount": true,
+                        "phone": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": [Function],
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "amount": "999",
+                        "phone": "+7 (999) 999-99-99",
+                      },
+                    }
+                  }
+                  name="amount"
+                  render={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-bwzfXH leYQAG"
+                    >
+                      <styled.label
+                        htmlFor="amount"
+                      >
+                        <label
+                          className="sc-bxivhb jFvgzf"
+                          htmlFor="amount"
+                        >
+                          Amount
+                        </label>
+                      </styled.label>
+                      <t
+                        mask={[Function]}
+                        name="amount"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        render={[Function]}
+                        value="999"
+                      >
+                        <styled.input
+                          defaultValue="999"
+                          innerRef={[Function]}
+                          name="amount"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                        >
+                          <input
+                            className="sc-htpNat eiyAsi"
+                            defaultValue="999"
+                            name="amount"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          />
+                        </styled.input>
+                      </t>
+                    </div>
+                  </styled.div>
+                </FieldInner>
+              </C>
+            </Input>
+            <styled.button
+              disabled={true}
+              type="submit"
+            >
+              <button
+                className="sc-bZQynM cDdhYu"
+                disabled={true}
+                type="submit"
+              >
+                Submitting
+              </button>
+            </styled.button>
+          </form>
+        </styled.form>
+      </div>
+    </RefilBalanceForm>
+  </Formik>
+</WithFormik(RefilBalanceForm)>
+`;
+
+exports[`RefilBalanceForm render correctly 1`] = `
+<div>
+  <styled.h1>
+    Refil balance 
+    MTS
+  </styled.h1>
+  <styled.form>
+    <Input
+      guide={false}
+      innerRef={[Function]}
+      label="Phone number"
+      mask={
+        Array [
+          "+",
+          "7",
+          " ",
+          "(",
+          /\\[1-9\\]/,
+          /\\\\d/,
+          /\\\\d/,
+          ")",
+          " ",
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+        ]
+      }
+      name="phone"
+      placeholder="+7 (978) 802-10-42"
+      type="tel"
+      value="+7 999 99 99"
+    />
+    <Input
+      innerRef={[Function]}
+      label="Amount"
+      mask={[Function]}
+      name="amount"
+      value="999"
+    />
+    <styled.button
+      type="submit"
+    >
+      Submit
+    </styled.button>
+  </styled.form>
+</div>
+`;
+
+exports[`RefilBalanceForm renders message about succeeded submission 1`] = `
+<div>
+  <styled.h1>
+    Refil balance 
+    MTS
+  </styled.h1>
+  <styled.form>
+    <Input
+      guide={false}
+      innerRef={[Function]}
+      label="Phone number"
+      mask={
+        Array [
+          "+",
+          "7",
+          " ",
+          "(",
+          /\\[1-9\\]/,
+          /\\\\d/,
+          /\\\\d/,
+          ")",
+          " ",
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+        ]
+      }
+      name="phone"
+      placeholder="+7 (978) 802-10-42"
+      type="tel"
+      value="+7 999 99 99"
+    />
+    <Input
+      innerRef={[Function]}
+      label="Amount"
+      mask={[Function]}
+      name="amount"
+      value="999"
+    />
+    <styled.div
+      size="large"
+      type="success"
+    >
+      Success! You will be redirected to the home page soon.
+    </styled.div>
+    <styled.button
+      type="submit"
+    >
+      Submit
+    </styled.button>
+  </styled.form>
+</div>
+`;
+
+exports[`RefilBalanceForm renders server error 1`] = `
+<div>
+  <styled.h1>
+    Refil balance 
+    MTS
+  </styled.h1>
+  <styled.form>
+    <Input
+      guide={false}
+      innerRef={[Function]}
+      label="Phone number"
+      mask={
+        Array [
+          "+",
+          "7",
+          " ",
+          "(",
+          /\\[1-9\\]/,
+          /\\\\d/,
+          /\\\\d/,
+          ")",
+          " ",
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+        ]
+      }
+      name="phone"
+      placeholder="+7 (978) 802-10-42"
+      type="tel"
+      value="+7 999 99 99"
+    />
+    <Input
+      innerRef={[Function]}
+      label="Amount"
+      mask={[Function]}
+      name="amount"
+      value="999"
+    />
+    <styled.div
+      size="large"
+      type="error"
+    >
+      Sorry! Service is temporary unavailable.
+    </styled.div>
+    <styled.button
+      type="submit"
+    >
+      Submit
+    </styled.button>
+  </styled.form>
+</div>
+`;

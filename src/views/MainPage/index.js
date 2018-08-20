@@ -5,7 +5,7 @@ import withLoader from 'components/withLoader';
 import { getProviders } from 'api';
 import { ProviderShape } from 'types';
 
-const MainPage = ({ data }) => <ProvidersList providers={data} />;
+export const MainPage = ({ data }) => <ProvidersList providers={data} />;
 
 MainPage.propTypes = {
   data: PropTypes.arrayOf(ProviderShape)

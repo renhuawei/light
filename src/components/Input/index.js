@@ -20,6 +20,7 @@ const Input = ({ name, label, innerRef, ...props }) => (
             {...props}
             {...field}
             ref={innerRef}
+            error={form.touched[name] && form.errors[name]}
             render={(ref, props) => <StyledInput innerRef={ref} {...props} />}
           />
           {form.touched[name] &&

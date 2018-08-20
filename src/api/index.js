@@ -1,7 +1,7 @@
 import request from './request';
 import mockAPI from './APIMock';
 
-if (process.env.API_MODE === 'MOCK') {
+if (process.env.API_MODE === 'MOCK' || process.env.NODE_ENV === 'test') {
   mockAPI();
 }
 

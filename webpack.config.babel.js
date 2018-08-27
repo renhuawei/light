@@ -1,25 +1,30 @@
+require('dotenv').config();
+require('babel-polyfill');
 const path = require('path');
-// const { createReadStream } = require('fs');
 
+// const { createReadStream } = require('fs');
 const webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
 const HtmlTemplatePlugin = require('html-webpack-template');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin;
 
-require('dotenv').config();
-require('babel-polyfill');
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   context: __dirname,
 
+  mode: isProduction ? 'production' : 'development',
+
   entry: ['babel-polyfill', './src/index.js'],
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
     publicPath: '/'
   },
 
-  devtool: 'source-map',
+  devtool: isProduction ? 'source-map' : 'inline-source-map',
 
   resolve: {
     modules: [path.resolve('./src/'), path.resolve('./node_modules')]
@@ -60,8 +65,9 @@ module.exports = {
         NODE_ENV: `"${process.env.NODE_ENV}"`,
         API_MODE: `"${process.env.API_MODE}"`
       }
-    })
-  ],
+    }),
+    isProduction && new BundleAnalyzerPlugin()
+  ].filter(Boolean),
 
   devServer: {
     contentBase: path.join(__dirname, 'public'),

@@ -5,6 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server -d --progress --colors --watch --hot",
+    "build": "cross-env NODE_ENV=production webpack -p --display-error-details",
     "test": "jest --watch --verbose false"
   },
   "author": "michael.dovzhenko@gmail.com",
@@ -35,6 +36,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
     "dotenv": "^6.0.0",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
@@ -51,6 +53,7 @@
     "jest-enzyme": "^6.0.3",
     "react-test-renderer": "^16.4.2",
     "webpack": "^4.16.5",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
   },

@@ -81,19 +81,19 @@ exports[`Formik correctly validate form submission 1`] = `
       }
     >
       <div>
-        <styled.h1>
+        <styles__Header>
           <h1
-            className="sc-EHOje fCNSzj"
+            className="styles__Header-sc-1pz6ecu-1 YZJuF"
           >
             Refil balance 
             MTS
           </h1>
-        </styled.h1>
-        <styled.form
+        </styles__Header>
+        <styles__Form
           onSubmit={[Function]}
         >
           <form
-            className="sc-ifAKCX hsTlvV"
+            className="styles__Form-sc-1pz6ecu-0 euvddx"
             onSubmit={[Function]}
           >
             <Input
@@ -180,20 +180,20 @@ exports[`Formik correctly validate form submission 1`] = `
                   name="phone"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="phone"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="phone"
                         >
                           Phone number
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         guide={false}
                         mask={
@@ -226,7 +226,7 @@ exports[`Formik correctly validate form submission 1`] = `
                         type="tel"
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           innerRef={[Function]}
                           name="phone"
@@ -236,7 +236,7 @@ exports[`Formik correctly validate form submission 1`] = `
                           type="tel"
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue=""
                             name="phone"
                             onBlur={[Function]}
@@ -244,10 +244,10 @@ exports[`Formik correctly validate form submission 1`] = `
                             placeholder="+7 (978) 802-10-42"
                             type="tel"
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
@@ -311,20 +311,20 @@ exports[`Formik correctly validate form submission 1`] = `
                   name="amount"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="amount"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="amount"
                         >
                           Amount
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         mask={[Function]}
                         name="amount"
@@ -333,7 +333,7 @@ exports[`Formik correctly validate form submission 1`] = `
                         render={[Function]}
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           innerRef={[Function]}
                           name="amount"
@@ -341,33 +341,33 @@ exports[`Formik correctly validate form submission 1`] = `
                           onChange={[Function]}
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue=""
                             name="amount"
                             onBlur={[Function]}
                             onChange={[Function]}
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
-            <styled.button
+            <styles__Button
               disabled={false}
               type="submit"
             >
               <button
-                className="sc-bZQynM cDdhYu"
+                className="styles__Button-sc-1pz6ecu-2 bMKNpz"
                 disabled={false}
                 type="submit"
               >
                 Submit
               </button>
-            </styled.button>
+            </styles__Button>
           </form>
-        </styled.form>
+        </styles__Form>
       </div>
     </RefilBalanceForm>
   </Formik>
@@ -460,19 +460,19 @@ exports[`Formik correctly validate form submission 2`] = `
       }
     >
       <div>
-        <styled.h1>
+        <styles__Header>
           <h1
-            className="sc-EHOje fCNSzj"
+            className="styles__Header-sc-1pz6ecu-1 YZJuF"
           >
             Refil balance 
             MTS
           </h1>
-        </styled.h1>
-        <styled.form
+        </styles__Header>
+        <styles__Form
           onSubmit={[Function]}
         >
           <form
-            className="sc-ifAKCX hsTlvV"
+            className="styles__Form-sc-1pz6ecu-0 euvddx"
             onSubmit={[Function]}
           >
             <Input
@@ -562,20 +562,20 @@ exports[`Formik correctly validate form submission 2`] = `
                   name="phone"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="phone"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="phone"
                         >
                           Phone number
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         guide={false}
                         mask={
@@ -608,7 +608,7 @@ exports[`Formik correctly validate form submission 2`] = `
                         type="tel"
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           innerRef={[Function]}
                           name="phone"
@@ -618,7 +618,7 @@ exports[`Formik correctly validate form submission 2`] = `
                           type="tel"
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue=""
                             name="phone"
                             onBlur={[Function]}
@@ -626,10 +626,10 @@ exports[`Formik correctly validate form submission 2`] = `
                             placeholder="+7 (978) 802-10-42"
                             type="tel"
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
@@ -696,20 +696,20 @@ exports[`Formik correctly validate form submission 2`] = `
                   name="amount"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="amount"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="amount"
                         >
                           Amount
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         mask={[Function]}
                         name="amount"
@@ -718,7 +718,7 @@ exports[`Formik correctly validate form submission 2`] = `
                         render={[Function]}
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           innerRef={[Function]}
                           name="amount"
@@ -726,33 +726,33 @@ exports[`Formik correctly validate form submission 2`] = `
                           onChange={[Function]}
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue=""
                             name="amount"
                             onBlur={[Function]}
                             onChange={[Function]}
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
-            <styled.button
+            <styles__Button
               disabled={true}
               type="submit"
             >
               <button
-                className="sc-bZQynM cDdhYu"
+                className="styles__Button-sc-1pz6ecu-2 bMKNpz"
                 disabled={true}
                 type="submit"
               >
                 Submitting
               </button>
-            </styled.button>
+            </styles__Button>
           </form>
-        </styled.form>
+        </styles__Form>
       </div>
     </RefilBalanceForm>
   </Formik>
@@ -850,19 +850,19 @@ exports[`Formik correctly validate form submission 3`] = `
       }
     >
       <div>
-        <styled.h1>
+        <styles__Header>
           <h1
-            className="sc-EHOje fCNSzj"
+            className="styles__Header-sc-1pz6ecu-1 YZJuF"
           >
             Refil balance 
             MTS
           </h1>
-        </styled.h1>
-        <styled.form
+        </styles__Header>
+        <styles__Form
           onSubmit={[Function]}
         >
           <form
-            className="sc-ifAKCX hsTlvV"
+            className="styles__Form-sc-1pz6ecu-0 euvddx"
             onSubmit={[Function]}
           >
             <Input
@@ -955,21 +955,21 @@ exports[`Formik correctly validate form submission 3`] = `
                   name="phone"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         error="Phone number is required."
                         htmlFor="phone"
                       >
                         <label
-                          className="sc-bxivhb eHCWl"
+                          className="styles__StyledLabel-sc-12xhm0c-2 butblQ"
                           htmlFor="phone"
                         >
                           Phone number
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         error="Phone number is required."
                         guide={false}
@@ -1003,7 +1003,7 @@ exports[`Formik correctly validate form submission 3`] = `
                         type="tel"
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           error="Phone number is required."
                           innerRef={[Function]}
@@ -1014,7 +1014,7 @@ exports[`Formik correctly validate form submission 3`] = `
                           type="tel"
                         >
                           <input
-                            className="sc-htpNat hsIeko"
+                            className="styles__StyledInput-sc-12xhm0c-1 biGWds"
                             defaultValue=""
                             name="phone"
                             onBlur={[Function]}
@@ -1022,22 +1022,22 @@ exports[`Formik correctly validate form submission 3`] = `
                             placeholder="+7 (978) 802-10-42"
                             type="tel"
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
-                      <styled.div
+                      <styles__StyledMessage
                         size="small"
                         type="error"
                       >
                         <div
-                          className="sc-bdVaJa eSGZdV"
+                          className="styles__StyledMessage-sc-17hgkf4-0 dbRolt"
                           size="small"
                           type="error"
                         >
                           Phone number is required.
                         </div>
-                      </styled.div>
+                      </styles__StyledMessage>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
@@ -1107,21 +1107,21 @@ exports[`Formik correctly validate form submission 3`] = `
                   name="amount"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         error="Min: 1 ₽"
                         htmlFor="amount"
                       >
                         <label
-                          className="sc-bxivhb eHCWl"
+                          className="styles__StyledLabel-sc-12xhm0c-2 butblQ"
                           htmlFor="amount"
                         >
                           Amount
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         error="Min: 1 ₽"
                         mask={[Function]}
@@ -1131,7 +1131,7 @@ exports[`Formik correctly validate form submission 3`] = `
                         render={[Function]}
                         value=""
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue=""
                           error="Min: 1 ₽"
                           innerRef={[Function]}
@@ -1140,45 +1140,45 @@ exports[`Formik correctly validate form submission 3`] = `
                           onChange={[Function]}
                         >
                           <input
-                            className="sc-htpNat hsIeko"
+                            className="styles__StyledInput-sc-12xhm0c-1 biGWds"
                             defaultValue=""
                             name="amount"
                             onBlur={[Function]}
                             onChange={[Function]}
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
-                      <styled.div
+                      <styles__StyledMessage
                         size="small"
                         type="error"
                       >
                         <div
-                          className="sc-bdVaJa eSGZdV"
+                          className="styles__StyledMessage-sc-17hgkf4-0 dbRolt"
                           size="small"
                           type="error"
                         >
                           Min: 1 ₽
                         </div>
-                      </styled.div>
+                      </styles__StyledMessage>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
-            <styled.button
+            <styles__Button
               disabled={false}
               type="submit"
             >
               <button
-                className="sc-bZQynM cDdhYu"
+                className="styles__Button-sc-1pz6ecu-2 bMKNpz"
                 disabled={false}
                 type="submit"
               >
                 Submit
               </button>
-            </styled.button>
+            </styles__Button>
           </form>
-        </styled.form>
+        </styles__Form>
       </div>
     </RefilBalanceForm>
   </Formik>
@@ -1276,19 +1276,19 @@ exports[`Formik correctly validate form submission 4`] = `
       }
     >
       <div>
-        <styled.h1>
+        <styles__Header>
           <h1
-            className="sc-EHOje fCNSzj"
+            className="styles__Header-sc-1pz6ecu-1 YZJuF"
           >
             Refil balance 
             MTS
           </h1>
-        </styled.h1>
-        <styled.form
+        </styles__Header>
+        <styles__Form
           onSubmit={[Function]}
         >
           <form
-            className="sc-ifAKCX hsTlvV"
+            className="styles__Form-sc-1pz6ecu-0 euvddx"
             onSubmit={[Function]}
           >
             <Input
@@ -1381,21 +1381,21 @@ exports[`Formik correctly validate form submission 4`] = `
                   name="phone"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         error="Phone number should contain 11 digits"
                         htmlFor="phone"
                       >
                         <label
-                          className="sc-bxivhb eHCWl"
+                          className="styles__StyledLabel-sc-12xhm0c-2 butblQ"
                           htmlFor="phone"
                         >
                           Phone number
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         error="Phone number should contain 11 digits"
                         guide={false}
@@ -1429,7 +1429,7 @@ exports[`Formik correctly validate form submission 4`] = `
                         type="tel"
                         value="+7 (999) 99"
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue="+7 (999) 99"
                           error="Phone number should contain 11 digits"
                           innerRef={[Function]}
@@ -1440,7 +1440,7 @@ exports[`Formik correctly validate form submission 4`] = `
                           type="tel"
                         >
                           <input
-                            className="sc-htpNat hsIeko"
+                            className="styles__StyledInput-sc-12xhm0c-1 biGWds"
                             defaultValue="+7 (999) 99"
                             name="phone"
                             onBlur={[Function]}
@@ -1448,22 +1448,22 @@ exports[`Formik correctly validate form submission 4`] = `
                             placeholder="+7 (978) 802-10-42"
                             type="tel"
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
-                      <styled.div
+                      <styles__StyledMessage
                         size="small"
                         type="error"
                       >
                         <div
-                          className="sc-bdVaJa eSGZdV"
+                          className="styles__StyledMessage-sc-17hgkf4-0 dbRolt"
                           size="small"
                           type="error"
                         >
                           Phone number should contain 11 digits
                         </div>
-                      </styled.div>
+                      </styles__StyledMessage>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
@@ -1533,21 +1533,21 @@ exports[`Formik correctly validate form submission 4`] = `
                   name="amount"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         error="Max: 1000 ₽"
                         htmlFor="amount"
                       >
                         <label
-                          className="sc-bxivhb eHCWl"
+                          className="styles__StyledLabel-sc-12xhm0c-2 butblQ"
                           htmlFor="amount"
                         >
                           Amount
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         error="Max: 1000 ₽"
                         mask={[Function]}
@@ -1557,7 +1557,7 @@ exports[`Formik correctly validate form submission 4`] = `
                         render={[Function]}
                         value="2000"
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue="2000"
                           error="Max: 1000 ₽"
                           innerRef={[Function]}
@@ -1566,45 +1566,45 @@ exports[`Formik correctly validate form submission 4`] = `
                           onChange={[Function]}
                         >
                           <input
-                            className="sc-htpNat hsIeko"
+                            className="styles__StyledInput-sc-12xhm0c-1 biGWds"
                             defaultValue="2000"
                             name="amount"
                             onBlur={[Function]}
                             onChange={[Function]}
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
-                      <styled.div
+                      <styles__StyledMessage
                         size="small"
                         type="error"
                       >
                         <div
-                          className="sc-bdVaJa eSGZdV"
+                          className="styles__StyledMessage-sc-17hgkf4-0 dbRolt"
                           size="small"
                           type="error"
                         >
                           Max: 1000 ₽
                         </div>
-                      </styled.div>
+                      </styles__StyledMessage>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
-            <styled.button
+            <styles__Button
               disabled={false}
               type="submit"
             >
               <button
-                className="sc-bZQynM cDdhYu"
+                className="styles__Button-sc-1pz6ecu-2 bMKNpz"
                 disabled={false}
                 type="submit"
               >
                 Submit
               </button>
-            </styled.button>
+            </styles__Button>
           </form>
-        </styled.form>
+        </styles__Form>
       </div>
     </RefilBalanceForm>
   </Formik>
@@ -1697,19 +1697,19 @@ exports[`Formik correctly validate form submission 5`] = `
       }
     >
       <div>
-        <styled.h1>
+        <styles__Header>
           <h1
-            className="sc-EHOje fCNSzj"
+            className="styles__Header-sc-1pz6ecu-1 YZJuF"
           >
             Refil balance 
             MTS
           </h1>
-        </styled.h1>
-        <styled.form
+        </styles__Header>
+        <styles__Form
           onSubmit={[Function]}
         >
           <form
-            className="sc-ifAKCX hsTlvV"
+            className="styles__Form-sc-1pz6ecu-0 euvddx"
             onSubmit={[Function]}
           >
             <Input
@@ -1799,20 +1799,20 @@ exports[`Formik correctly validate form submission 5`] = `
                   name="phone"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="phone"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="phone"
                         >
                           Phone number
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         guide={false}
                         mask={
@@ -1845,7 +1845,7 @@ exports[`Formik correctly validate form submission 5`] = `
                         type="tel"
                         value="+7 (999) 999-99-99"
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue="+7 (999) 999-99-99"
                           innerRef={[Function]}
                           name="phone"
@@ -1855,7 +1855,7 @@ exports[`Formik correctly validate form submission 5`] = `
                           type="tel"
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue="+7 (999) 999-99-99"
                             name="phone"
                             onBlur={[Function]}
@@ -1863,10 +1863,10 @@ exports[`Formik correctly validate form submission 5`] = `
                             placeholder="+7 (978) 802-10-42"
                             type="tel"
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
@@ -1933,20 +1933,20 @@ exports[`Formik correctly validate form submission 5`] = `
                   name="amount"
                   render={[Function]}
                 >
-                  <styled.div>
+                  <styles__StyledContainer>
                     <div
-                      className="sc-bwzfXH leYQAG"
+                      className="styles__StyledContainer-sc-12xhm0c-0 gllhCp"
                     >
-                      <styled.label
+                      <styles__StyledLabel
                         htmlFor="amount"
                       >
                         <label
-                          className="sc-bxivhb jFvgzf"
+                          className="styles__StyledLabel-sc-12xhm0c-2 dnUmdd"
                           htmlFor="amount"
                         >
                           Amount
                         </label>
-                      </styled.label>
+                      </styles__StyledLabel>
                       <t
                         mask={[Function]}
                         name="amount"
@@ -1955,7 +1955,7 @@ exports[`Formik correctly validate form submission 5`] = `
                         render={[Function]}
                         value="999"
                       >
-                        <styled.input
+                        <styles__StyledInput
                           defaultValue="999"
                           innerRef={[Function]}
                           name="amount"
@@ -1963,33 +1963,33 @@ exports[`Formik correctly validate form submission 5`] = `
                           onChange={[Function]}
                         >
                           <input
-                            className="sc-htpNat eiyAsi"
+                            className="styles__StyledInput-sc-12xhm0c-1 ksPcYq"
                             defaultValue="999"
                             name="amount"
                             onBlur={[Function]}
                             onChange={[Function]}
                           />
-                        </styled.input>
+                        </styles__StyledInput>
                       </t>
                     </div>
-                  </styled.div>
+                  </styles__StyledContainer>
                 </FieldInner>
               </C>
             </Input>
-            <styled.button
+            <styles__Button
               disabled={true}
               type="submit"
             >
               <button
-                className="sc-bZQynM cDdhYu"
+                className="styles__Button-sc-1pz6ecu-2 bMKNpz"
                 disabled={true}
                 type="submit"
               >
                 Submitting
               </button>
-            </styled.button>
+            </styles__Button>
           </form>
-        </styled.form>
+        </styles__Form>
       </div>
     </RefilBalanceForm>
   </Formik>
@@ -1998,11 +1998,11 @@ exports[`Formik correctly validate form submission 5`] = `
 
 exports[`RefilBalanceForm render correctly 1`] = `
 <div>
-  <styled.h1>
+  <styles__Header>
     Refil balance 
     MTS
-  </styled.h1>
-  <styled.form>
+  </styles__Header>
+  <styles__Form>
     <Input
       guide={false}
       innerRef={[Function]}
@@ -2041,22 +2041,22 @@ exports[`RefilBalanceForm render correctly 1`] = `
       name="amount"
       value="999"
     />
-    <styled.button
+    <styles__Button
       type="submit"
     >
       Submit
-    </styled.button>
-  </styled.form>
+    </styles__Button>
+  </styles__Form>
 </div>
 `;
 
 exports[`RefilBalanceForm renders message about succeeded submission 1`] = `
 <div>
-  <styled.h1>
+  <styles__Header>
     Refil balance 
     MTS
-  </styled.h1>
-  <styled.form>
+  </styles__Header>
+  <styles__Form>
     <Input
       guide={false}
       innerRef={[Function]}
@@ -2095,28 +2095,28 @@ exports[`RefilBalanceForm renders message about succeeded submission 1`] = `
       name="amount"
       value="999"
     />
-    <styled.div
+    <styles__StyledMessage
       size="large"
       type="success"
     >
       Success! You will be redirected to the home page soon.
-    </styled.div>
-    <styled.button
+    </styles__StyledMessage>
+    <styles__Button
       type="submit"
     >
       Submit
-    </styled.button>
-  </styled.form>
+    </styles__Button>
+  </styles__Form>
 </div>
 `;
 
 exports[`RefilBalanceForm renders server error 1`] = `
 <div>
-  <styled.h1>
+  <styles__Header>
     Refil balance 
     MTS
-  </styled.h1>
-  <styled.form>
+  </styles__Header>
+  <styles__Form>
     <Input
       guide={false}
       innerRef={[Function]}
@@ -2155,17 +2155,17 @@ exports[`RefilBalanceForm renders server error 1`] = `
       name="amount"
       value="999"
     />
-    <styled.div
+    <styles__StyledMessage
       size="large"
       type="error"
     >
       Sorry! Service is temporary unavailable.
-    </styled.div>
-    <styled.button
+    </styles__StyledMessage>
+    <styles__Button
       type="submit"
     >
       Submit
-    </styled.button>
-  </styled.form>
+    </styles__Button>
+  </styles__Form>
 </div>
 `;

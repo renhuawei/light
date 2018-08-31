@@ -1,22 +1,23 @@
 {
+  "env": {
+    "test": {
+      "presets": [["@babel/preset-env"], "@babel/preset-react"]
+    }
+  },
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "modules": false,
         "loose": true
       }
     ],
-    "stage-2",
-    "react"
+    "@babel/preset-react"
   ],
-  "env": {
-    "test": {
-      "presets": [["env"], "stage-2", "react"]
-    }
-  },
   "plugins": [
-    "syntax-dynamic-import",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-syntax-import-meta",
+    "@babel/plugin-proposal-class-properties",
     "babel-plugin-styled-components",
     "babel-plugin-polished"
   ],

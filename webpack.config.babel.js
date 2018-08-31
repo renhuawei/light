@@ -1,8 +1,6 @@
 require('dotenv').config();
-require('babel-polyfill');
 const path = require('path');
 
-// const { createReadStream } = require('fs');
 const webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
 const HtmlTemplatePlugin = require('html-webpack-template');
@@ -16,7 +14,7 @@ module.exports = {
 
   mode: isProduction ? 'production' : 'development',
 
-  entry: ['babel-polyfill', './src/index.js'],
+  entry: ['./src/index.js'],
 
   output: {
     path: path.join(__dirname, 'docs'),
@@ -74,13 +72,5 @@ module.exports = {
     historyApiFallback: true,
     hot: true,
     port: 9000
-    // before(app) {
-    // app.get('/api/providers', function(req, res) {
-    //   res.writeHead(200, { 'Content-Type': 'application/json' });
-    //   createReadStream(path.join(__dirname, 'src/api/providers.json'), {
-    //     encoding: 'utf-8'
-    //   }).pipe(res);
-    // });
-    // }
   }
 };

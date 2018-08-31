@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MainPage render correctly 1`] = `
-<styled.div>
+<styles__Loader>
   Loading...
-</styled.div>
+</styles__Loader>
 `;
 
 exports[`MainPage render correctly 2`] = `

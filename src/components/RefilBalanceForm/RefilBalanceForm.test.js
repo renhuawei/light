@@ -1,5 +1,4 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
 
 import RefilBalanceForm from './RefilBalanceForm';
 import Formik from './index';
@@ -72,15 +71,25 @@ describe('Formik', () => {
     await snapshotWithDelay(component);
 
     //Entering wrong form values
-    formProps.setFieldValue('phone', '+7 (999) 99');
-    formProps.setFieldValue('amount', '2000');
+    const inputs = component.find('input');
+    const [phoneInput, amountInput] = [inputs.at(0), inputs.at(1)];
+    phoneInput.simulate('change', {
+      target: { name: 'phone', value: '+7 (999) 99' }
+    });
+    amountInput.simulate('change', {
+      target: { name: 'amount', value: '2000' }
+    });
     component.update();
     await formProps.handleSubmit();
     await snapshotWithDelay(component);
 
     //Entering correct form values
-    formProps.setFieldValue('phone', '+7 (999) 999-99-99');
-    formProps.setFieldValue('amount', '999');
+    phoneInput.simulate('change', {
+      target: { name: 'phone', value: '+7 (999) 999-99-99' }
+    });
+    amountInput.simulate('change', {
+      target: { name: 'amount', value: '999' }
+    });
     await formProps.handleSubmit(
       {},
       {
